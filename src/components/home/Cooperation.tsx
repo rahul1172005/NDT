@@ -18,7 +18,7 @@ const CooperationCard = ({ point, i, pointsLength, progress }: { point: Cooperat
   const targetScale = 1 - ((pointsLength - 1 - i) * 0.04);
   const targetOpacity = (pointsLength - 1 - i) * 0.3;
   
-  const isLast = i === pointsLength - 1;
+  
   const safeRange = [start, 1];
   const safeScale = [1, targetScale];
   const safeOpacity = [0, targetOpacity];

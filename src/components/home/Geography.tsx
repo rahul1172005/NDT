@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react'
-import { motion } from 'framer-motion'
-import { MapPin } from 'lucide-react'
 import Globe3D from '../common/Globe3D'
 
 const regions = [
@@ -17,7 +15,6 @@ const regions = [
 ]
 
 const Geography = () => {
-  const [hoveredRow, setHoveredRow] = useState<number | null>(null)
   const [telemetrySeed, setTelemetrySeed] = useState(0)
 
   useEffect(() => {
